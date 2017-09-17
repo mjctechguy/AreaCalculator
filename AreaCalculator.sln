@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculator", "AreaCalculator\AreaCalculator.csproj", "{57FC04C5-8538-4BDF-84D3-3BB8F961C5CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57FC04C5-8538-4BDF-84D3-3BB8F961C5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FC04C5-8538-4BDF-84D3-3BB8F961C5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FC04C5-8538-4BDF-84D3-3BB8F961C5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FC04C5-8538-4BDF-84D3-3BB8F961C5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90B43B4C-0FA6-447F-AB47-EC5F805A64A5}
+	EndGlobalSection
+EndGlobal
