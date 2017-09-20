@@ -153,6 +153,7 @@ namespace AreaCalculator {
             int choice = getInt();
             areaMain area = new areaMain();
             if (choice == 0) {
+                Console.Clear();
                 area.Start();
             } else if (choice == 1) {
                 return;

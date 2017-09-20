@@ -1,4 +1,5 @@
 ﻿using System;
+using AreaCalculator.areaTypes;
 
 namespace AreaCalculator {
 
@@ -33,8 +34,8 @@ namespace AreaCalculator {
 
             switch (areaType) {
                 case 0:
-                    areaOfSquare a = new areaOfSquare();
-                    a.start();
+                    AreaOfSquare aS = new AreaOfSquare();
+                    aS.start();
                     break;
 
                 case 1:
@@ -42,15 +43,18 @@ namespace AreaCalculator {
                     break;
 
                 case 2:
-                    Console.WriteLine(shapeTypes[2]);
+                    AreaOfCircle aCI = new AreaOfCircle();
+                    aCI.start();
                     break;
 
                 case 3:
-                    Console.WriteLine(shapeTypes[3]);
+                    AreaOfTriangle aT = new AreaOfTriangle();
+                    aT.start();
                     break;
 
                 case 4:
-                    Console.WriteLine(shapeTypes[4]);
+                    AreaOfCone aC = new AreaOfCone();
+                    aC.start();
                     break;
 
                 default:

@@ -43,7 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="areaMain.cs" />
-    <Compile Include="areaOfSquare.cs" />
+    <Compile Include="areaTypes\AreaOfCircle.cs" />
+    <Compile Include="areaTypes\AreaOfCone.cs" />
+    <Compile Include="areaTypes\AreaOfSquare.cs" />
+    <Compile Include="areaTypes\AreaOfTriangle.cs" />
     <Compile Include="getConsoleValues.cs" />
     <Compile Include="IArea.cs" />
     <Compile Include="Program.cs" />
@@ -53,8 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="areaTypes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
